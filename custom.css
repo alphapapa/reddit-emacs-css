@@ -2,167 +2,168 @@
 
 /* @-moz-document url-prefix("https://www.reddit.com/r/emacs") { */
 
-    /* Main elements */
-    html {
-        font-family: "fira sans", sans !important;
-    }
-    a, .search-expando-button  {
-        color: #76319F !important;
-    }
-    body, p,  a.search-comments.may-blank{
-	font-family: "fira sans", sans !important;
-	color: #3F3B3B !important;
-	background: #F5F5ED !important;
-    }
-    input, textarea {
-        background: white !important;
-	border: 2px solid #D4CBB6 !important;
-	border-radius: 8px !important;
-	padding: 5px 10px !important;
-    }
-    
+/* Main elements */
 
-    /* Header */
+html {
+    font-family: "fira sans", sans !important;
+}
+a, .search-expando-button  {
+    color: #76319F !important;
+}
+body, p,  a.search-comments.may-blank{
+    font-family: "fira sans", sans !important;
+    color: #3F3B3B !important;
+    background: #F5F5ED !important;
+}
+input, textarea {
+    background: white !important;
+    border: 2px solid #D4CBB6 !important;
+    border-radius: 8px !important;
+    padding: 5px 10px !important;
+}
 
-    #header, div.side {
-	background: #F2EFE4 !important;
-	border-bottom: 1px solid #D4CBB6 !important;
-	padding: 8px !important;
-	text-align: center !important;
-	font-size: .9em !important;
-	font-weight: 400 !important;
-    }
-    #header {
-        padding-bottom: 0px !important;
-    }
-    .tabmenu li a {
-        border: 1px solid #D4CBB6 !important;
-    }
-    .tabmenu li.selected {
-        background: #F5F5ED !important;
-        border: 1px solid #D4CBB6 !important;
-    }
-    .tabmenu li.selected a {
-        border: 1px solid #D4CBB6 !important;
-        border-bottom: 1px solid #F5F5ED !important;
-    }
-    .tabmenu a {
-	color: #3F3B3B !important;
 
-    }
-    #header a.choice {
-        background: #F5F5ED !important;
-    }
+/* Header */
 
-    /* Sidebar */
+#header, div.side {
+    background: #F2EFE4 !important;
+    border-bottom: 1px solid #D4CBB6 !important;
+    padding: 8px !important;
+    text-align: center !important;
+    font-size: .9em !important;
+    font-weight: 400 !important;
+}
+#header {
+    padding-bottom: 0px !important;
+}
+.tabmenu li a {
+    border: 1px solid #D4CBB6 !important;
+}
+.tabmenu li.selected {
+    background: #F5F5ED !important;
+    border: 1px solid #D4CBB6 !important;
+}
+.tabmenu li.selected a {
+    border: 1px solid #D4CBB6 !important;
+    border-bottom: 1px solid #F5F5ED !important;
+}
+.tabmenu a {
+    color: #3F3B3B !important;
 
-    div.side {
-        border-left: 1px solid #D4CBB6 !important;
+}
+#header a.choice {
+    background: #F5F5ED !important;
+}
 
-        text-align: left !important;
-    }
-    div#sr-header-area {
-        background: white !important;
-        border-bottom: 1px solid #D4CBB6 !important;
+/* Sidebar */
 
-    }
-    div#sr-header-area  a {
-        color: black !important;
-    }
-    .redditname a {
-        color: black !important;
-    }
+div.side {
+    border-left: 1px solid #D4CBB6 !important;
 
-    /* Story list */
-    
-    p.title a, .search-title {
-        color: #3F3B3B !important;
-    }
-    .titlebox form.toggle, .sidebox .spacer {
-    	background: #F2EFE4 !important;
-    }
-    span.domain a {
-    	color: #3F3B3B !important;
-    }
-    div.morelink  {
-	text-align: center !important;
-	border-radius: 20px !important;
-        border: none !important;
-	display: inline-block !important;
-	padding: 5px 18px 2px 18px !important;
-	background: #817F7F !important;
-	color: white !important;
+    text-align: left !important;
+}
+div#sr-header-area {
+    background: white !important;
+    border-bottom: 1px solid #D4CBB6 !important;
 
-	text-decoration: none !important;
-    }
-    div.morelink a{
-        color: white !important;
-        font-weight: normal !important;
-        letter-spacing: 0px !important;
-    }
-    div.nub {
-        display: none !important;
-    }
+}
+div#sr-header-area  a {
+    color: black !important;
+}
+.redditname a {
+    color: black !important;
+}
 
-    /* Story pages */
+/* Story list */
 
-    .link .usertext-body .md, .linkinfo {
-    	background: #F2EFE4 !important;
-        border: 1px solid #D4CBB6 !important;
-    	color: #3F3B3B !important;
-    }
-    .md {
-    	color: #3F3B3B !important;
-    }
-    a.author {
-    	color: #3F3B3B !important;
-    }
-    .thing .tagline .author.submitter {
-        background-color: #76319F !important;
+p.title a, .search-title {
+    color: #3F3B3B !important;
+}
+.titlebox form.toggle, .sidebox .spacer {
+    background: #F2EFE4 !important;
+}
+span.domain a {
+    color: #3F3B3B !important;
+}
+div.morelink  {
+    text-align: center !important;
+    border-radius: 20px !important;
+    border: none !important;
+    display: inline-block !important;
+    padding: 5px 18px 2px 18px !important;
+    background: #817F7F !important;
+    color: white !important;
 
-    }
-    .c-btn-primary {
-        border-color: #76319F  !important;
-        background-color: #76319F !important;
-    }
-    .flat-list.buttons a {
-        color: gray !important;
-    }
+    text-decoration: none !important;
+}
+div.morelink a{
+    color: white !important;
+    font-weight: normal !important;
+    letter-spacing: 0px !important;
+}
+div.nub {
+    display: none !important;
+}
 
-    /* Search results */
+/* Story pages */
 
-    .search-expando.collapsed::before {
-        background: rgba(245,245,237,0) !important;
-        background: -moz-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-        background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(245,245,237,0)),color-stop(100%,#f5f5ed)) !important;
-        background: -webkit-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-        background: -o-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-        background: -ms-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-        background: linear-gradient(to bottom,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+.link .usertext-body .md, .linkinfo {
+    background: #F2EFE4 !important;
+    border: 1px solid #D4CBB6 !important;
+    color: #3F3B3B !important;
+}
+.md {
+    color: #3F3B3B !important;
+}
+a.author {
+    color: #3F3B3B !important;
+}
+.thing .tagline .author.submitter {
+    background-color: #76319F !important;
 
-    }
+}
+.c-btn-primary {
+    border-color: #76319F  !important;
+    background-color: #76319F !important;
+}
+.flat-list.buttons a {
+    color: gray !important;
+}
 
-    /* Footer */
+/* Search results */
 
-    .footer-parent {
-        border-top: 4px solid #333 !important;
-        padding-top: 15px !important;
-        text-align: center !important;
-        background: #434342 !important;
-        color: #888 !important;
-    }
-    .footer-parent p {
-        background: #434342 !important;
-        color: #888 !important;
-    }
-    .footer {
-        border: none !important;
-    }
-    .footer a, .bottommenu a {
-        color: #ccc !important;
-        text-decoration: none !important;
-    }
-    .debuginfo {
-        background: #434342 !important;
-    }
+.search-expando.collapsed::before {
+    background: rgba(245,245,237,0) !important;
+    background: -moz-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(245,245,237,0)),color-stop(100%,#f5f5ed)) !important;
+    background: -webkit-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+    background: -o-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+    background: -ms-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+    background: linear-gradient(to bottom,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
+
+}
+
+/* Footer */
+
+.footer-parent {
+    border-top: 4px solid #333 !important;
+    padding-top: 15px !important;
+    text-align: center !important;
+    background: #434342 !important;
+    color: #888 !important;
+}
+.footer-parent p {
+    background: #434342 !important;
+    color: #888 !important;
+}
+.footer {
+    border: none !important;
+}
+.footer a, .bottommenu a {
+    color: #ccc !important;
+    text-decoration: none !important;
+}
+.debuginfo {
+    background: #434342 !important;
+}
 /* } */
