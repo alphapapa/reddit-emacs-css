@@ -22,7 +22,6 @@ input, textarea {
     padding: 5px 10px !important;
 }
 
-
 /* Header */
 
 #header, div.side {
@@ -65,7 +64,6 @@ div.side {
 div#sr-header-area {
     background: white !important;
     border-bottom: 1px solid #D4CBB6 !important;
-
 }
 div#sr-header-area  a {
     color: black !important;
@@ -172,4 +170,5 @@ a.author {
 .debuginfo {
     background: #434342 !important;
 }
+
 /* } */
