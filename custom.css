@@ -16,7 +16,7 @@ body, a.search-comments.may-blank{
     background: #F5F5ED !important;
 }
 input, textarea {
-    background: white !important;
+    background-color: white !important;
     border: 2px solid #D4CBB6 !important;
     border-radius: 8px !important;
     padding: 5px 10px !important;
@@ -72,6 +72,12 @@ div#sr-header-area  a {
 }
 .redditname a {
     color: black !important;
+}
+
+#search input[type="submit"] {
+    background-color: none !important;
+    border: none !important;
+    padding-right: 6px !important;
 }
 
 /* Story list */
