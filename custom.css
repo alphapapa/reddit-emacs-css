@@ -73,7 +73,6 @@ div#sr-header-area  a {
 }
 
 #search input[type="submit"] {
-    background-color: none !important;
     border: none !important;
     padding-right: 6px !important;
 }
