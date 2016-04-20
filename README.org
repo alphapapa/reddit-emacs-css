@@ -1,6 +1,6 @@
-* /r/reddit Emacs-style
+* /r/emacs Emacs-style
 
-This makes =/r/reddit= look like the new GNU Emacs web site:
+This makes =/r/emacs= look like the new GNU Emacs web site:
 
 [[screenshot.png]]
 
