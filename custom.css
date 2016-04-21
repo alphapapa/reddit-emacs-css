@@ -21,6 +21,9 @@ input, textarea {
     border-radius: 8px !important;
     padding: 5px 10px !important;
 }
+blockquote {
+    font-style: italic !important;
+}
 
 /* Code blocks */
 
