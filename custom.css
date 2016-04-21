@@ -77,6 +77,14 @@ code, .md pre code {
     background-color: #EDE6D5 !important;
 }
 
+.pagename {
+    font-family: "fira sans", sans-serif !important;
+    font-size: 4em !important;
+    font-variant: none !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+}
+
 /* Sidebar */
 
 div.side {
@@ -93,6 +101,11 @@ div#sr-header-area  a {
 }
 .redditname a {
     color: black !important;
+    font-family: "fira sans", sans-serif !important;
+    font-size: 2rem !important;
+    font-variant: none !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
 }
 
 #search input[type="submit"] {
