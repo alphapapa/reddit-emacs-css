@@ -170,4 +170,18 @@ a.author {
     background: #434342 !important;
 }
 
+/* Misc */
+
+.nextprev a {
+    text-align: center !important;
+    border-radius: 20px !important;
+    border: none !important;
+    display: inline-block !important;
+    padding: 5px 18px 5px 18px !important;
+    background: #817F7F !important;
+    color: white !important;
+
+    text-decoration: none !important;
+}
+
 /* } */
