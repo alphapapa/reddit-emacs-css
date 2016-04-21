@@ -150,13 +150,7 @@ a.author {
 
 .search-expando.collapsed::before {
     background: rgba(245,245,237,0) !important;
-    background: -moz-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(245,245,237,0)),color-stop(100%,#f5f5ed)) !important;
-    background: -webkit-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-    background: -o-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-    background: -ms-linear-gradient(top,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
     background: linear-gradient(to bottom,rgba(245,245,237,0) 0%,#f5f5ed 100%) !important;
-
 }
 
 /* Footer */
