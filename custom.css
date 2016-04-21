@@ -13,7 +13,7 @@ a, .search-expando-button  {
 body, a.search-comments.may-blank{
     font-family: "fira sans", sans !important;
     color: #3F3B3B !important;
-    background: #F5F5ED !important;
+    background: #EDE6D5 !important;
 }
 input, textarea {
     background-color: white !important;
