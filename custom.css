@@ -22,6 +22,26 @@ input, textarea {
     padding: 5px 10px !important;
 }
 
+/* Code blocks */
+
+.md pre {
+    background-color: transparent !important;
+    border: none !important;
+}
+code, .md pre code {
+    color: #333 !important;
+    background: #e5e5c8 !important;
+    border: 1px solid #111 !important;
+    border-radius: 4px !important;
+
+    /* Prevent inline <code> blocks from touching each other between lines */
+    font-size: 95% !important;
+}
+.md pre code {
+    /* Add padding only to <pre><code> blocks, not to all <code> blocks */
+    padding: 0.5em !important;
+}
+
 /* Header */
 
 #header, div.side {
