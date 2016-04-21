@@ -39,12 +39,12 @@ input, textarea {
     border: 1px solid #D4CBB6 !important;
 }
 .tabmenu li.selected {
-    background: #F5F5ED !important;
+    background: #EDE6D5 !important;
     border: 1px solid #D4CBB6 !important;
 }
 .tabmenu li.selected a {
     border: 1px solid #D4CBB6 !important;
-    border-bottom: 1px solid #F5F5ED !important;
+    border-bottom: 1px solid #EDE6D5 !important;
 }
 .tabmenu a {
     color: #3F3B3B !important;
@@ -52,6 +52,9 @@ input, textarea {
 }
 #header a.choice {
     background: #F5F5ED !important;
+}
+#header .selected a.choice {
+    background-color: #EDE6D5 !important;
 }
 
 /* Sidebar */
