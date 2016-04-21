@@ -3,6 +3,22 @@
 This makes =/r/emacs= look like the new GNU Emacs web site, which was designed by [[http://nicolas-petton.fr/][Nicolas Petton]]:
 
 [[screenshot.png]]
+* To-do
+
+A few items that need tweaking:
+
++ Subscribe/unsubscribe button
++ Submitter username/flair
++ Login username/password box
++ "Want to join?" box
++ "My Subreddits" bar at the very top
++ A little white bar at the bottom of the footer (where did that come from?
+
+Lesson: Be sure to view without RES enabled...
+
+Also, maybe:
+
++ Improved logo (where =M-x butterfly= is)
 
 * License
 
