@@ -2,7 +2,7 @@
 
 This makes =/r/emacs= look like the new GNU Emacs web site:
 
-[[screenshot.png]]
+[[screenshot.jpg]]
 
 * License
 
