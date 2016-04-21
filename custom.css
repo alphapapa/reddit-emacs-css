@@ -228,13 +228,13 @@
 /* Main elements */
 
 html {
-    font-family: "fira sans", sans !important;
+    font-family: "fira sans", sans-serif !important;
 }
 a, .search-expando-button  {
     color: #76319F !important;
 }
 body, a.search-comments.may-blank{
-    font-family: "fira sans", sans !important;
+    font-family: "fira sans", sans-serif !important;
     color: #3F3B3B !important;
     background: #EDE6D5 !important;
 }
