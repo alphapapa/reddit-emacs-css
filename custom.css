@@ -100,6 +100,11 @@ div#sr-header-area a.choice {
     text-transform: capitalize !important;
 }
 
+#header-bottom-right, #header-bottom-right *, #header-bottom-right a.pref-lang.choice {
+    background-color: #333 !important;
+    color: white !important;
+}
+
 /* Sidebar */
 
 div.side {
