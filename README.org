@@ -9,7 +9,7 @@ A few items that need tweaking:
 
 + [X] Subscribe/unsubscribe button
 + [X] Submitter username/flair
-+ [ ] Login username/password box
++ [X] Login username/password box
 + [X] "Want to join?" box
 + [X] "My Subreddits" bar at the very top
 + [X] A little white bar at the bottom of the footer (where did that come from?)

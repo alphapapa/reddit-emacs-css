@@ -125,7 +125,7 @@ div.side {
     padding-right: 6px !important;
 }
 
-.sidecontentbox .content {
+.sidecontentbox .content, .login-form-side {
     border: 1px solid #D4CBB6 !important;
     border-radius: 5px !important;
 }
