@@ -228,6 +228,16 @@ a.author {
     background: #434342 !important;
 }
 
+#hsts_pixel {
+    /* This "pixel.png" causes a white bar to appear between
+.footer-parent and .debuginfo.  Since it's free-floating in the body,
+not inside a DIV, its background-color can't be controlled, and it
+causes a bar to appear which exposes the underlying BODY color.
+Disabling padding, margin, border, and height all seem to have no
+effect.  The only solution seems to be to hide it completely. */
+    display: none !important;
+}
+
 /* Misc */
 
 .nextprev a {

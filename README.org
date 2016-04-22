@@ -12,7 +12,7 @@ A few items that need tweaking:
 + [ ] Login username/password box
 + [X] "Want to join?" box
 + [X] "My Subreddits" bar at the very top
-+ [ ] A little white bar at the bottom of the footer (where did that come from?)
++ [X] A little white bar at the bottom of the footer (where did that come from?)
 
 Lesson: Be sure to view without RES enabled...
 
