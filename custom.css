@@ -173,8 +173,7 @@ a.author {
     color: #3F3B3B !important;
 }
 .thing .tagline .author.submitter {
-    background-color: #76319F !important;
-
+    color: #76319f !important;
 }
 .c-btn-primary {
     border-color: #76319F  !important;

@@ -7,12 +7,12 @@ This makes =/r/emacs= look like the new GNU Emacs web site, which was designed b
 
 A few items that need tweaking:
 
-+ Subscribe/unsubscribe button
-+ Submitter username/flair
-+ Login username/password box
-+ "Want to join?" box
-+ "My Subreddits" bar at the very top
-+ A little white bar at the bottom of the footer (where did that come from?)
++ [ ] Subscribe/unsubscribe button
++ [X] Submitter username/flair
++ [ ] Login username/password box
++ [ ] "Want to join?" box
++ [ ] "My Subreddits" bar at the very top
++ [ ] A little white bar at the bottom of the footer (where did that come from?)
 
 Lesson: Be sure to view without RES enabled...
 
