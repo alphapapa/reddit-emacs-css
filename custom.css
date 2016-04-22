@@ -138,6 +138,10 @@ div.side {
     color: #D4CBB6;
 }
 
+.fancy-toggle-button a {
+    color: white !important;
+}
+
 /* Story list */
 
 p.title a, .search-title {
