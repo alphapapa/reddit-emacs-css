@@ -47,16 +47,28 @@ code, .md pre code {
 
 /* Header */
 
+div#sr-header-area {
+    background: white !important;
+    border-bottom: 1px solid #D4CBB6 !important;
+}
+div#sr-header-area a.choice {
+    background: none !important;
+    color: black !important;
+}
+#sr-more-link {
+    background-color: white !important;
+}
+
 #header, div.side {
     background: #F2EFE4 !important;
     border-bottom: 1px solid #D4CBB6 !important;
-    padding: 8px !important;
+    padding: 0px 8px 8px 8px !important;
     text-align: center !important;
     font-size: .9em !important;
     font-weight: 400 !important;
 }
 #header {
-    padding-bottom: 0px !important;
+    padding: 0px !important;
 }
 .tabmenu li a {
     border: 1px solid #D4CBB6 !important;
@@ -93,13 +105,6 @@ code, .md pre code {
 div.side {
     border-left: 1px solid #D4CBB6 !important;
     text-align: left !important;
-}
-div#sr-header-area {
-    background: white !important;
-    border-bottom: 1px solid #D4CBB6 !important;
-}
-div#sr-header-area  a {
-    color: black !important;
 }
 .redditname a {
     color: black !important;

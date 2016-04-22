@@ -11,7 +11,7 @@ A few items that need tweaking:
 + [X] Submitter username/flair
 + [ ] Login username/password box
 + [ ] "Want to join?" box
-+ [ ] "My Subreddits" bar at the very top
++ [X] "My Subreddits" bar at the very top
 + [ ] A little white bar at the bottom of the footer (where did that come from?)
 
 Lesson: Be sure to view without RES enabled...
