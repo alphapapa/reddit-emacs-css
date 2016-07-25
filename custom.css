@@ -10,6 +10,9 @@ html {
 a, .search-expando-button  {
     color: #76319F !important;
 }
+a:visited {
+    color: #8a689f !important;
+}
 body, a.search-comments.may-blank{
     font-family: "fira sans", sans-serif !important;
     color: #3F3B3B !important;
