@@ -71,6 +71,7 @@ div#sr-header-area a.choice {
     font-weight: 400 !important;
 }
 #header {
+    text-align: left !important;
     padding: 0px !important;
 }
 .tabmenu li a {
@@ -164,10 +165,11 @@ div.morelink  {
     padding: 5px 18px 2px 18px !important;
     background: #817F7F !important;
     color: white !important;
-
+    height: auto !important;
     text-decoration: none !important;
 }
 div.morelink a{
+    background: #817F7F !important;
     color: white !important;
     font-weight: normal !important;
     letter-spacing: 0px !important;
