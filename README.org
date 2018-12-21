@@ -3,6 +3,11 @@
 This makes =/r/emacs= look like the new GNU Emacs web site, which was designed by [[http://nicolas-petton.fr/][Nicolas Petton]]:
 
 [[screenshot.png]]
+
+*Note:* The current =/r/emacs= CSS interferes with this stylesheet.  It's best to simply block it in the browser with an extension like uBlock.  This is the URL:
+
+: https://b.thumbs.redditmedia.com/3PRiaYAxHK1wYrckXM62vMZ1LuH3Y7NUSkCvAUEpNcs.css
+
 * To-do
 
 Maybe:
